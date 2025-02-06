@@ -1,0 +1,8 @@
+flask
+flask_cors
+requests
+bs4
+pymongo
+client=pymongo.MongoClient("mongodb+srv://sarvagra:<phonkpyjamas>@sarvagra.7ppi9.mongodb.net/?retryWrites=true&w=majority&appName=sarvagra")
+db=client['image_scrap']
+coll_img=db['image_scrap']
